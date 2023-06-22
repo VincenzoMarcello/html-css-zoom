@@ -16,6 +16,22 @@ body {
   display: flex;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
 /* HEADER */
 
 .bg-black-top {
@@ -51,7 +67,7 @@ body {
 }
 
 main {
-  height: calc(100vh - 140px);
+  height: calc(100vh - 120px);
   background-color: black;
 }
 
@@ -65,7 +81,6 @@ main {
   background-size: cover;
   background-position: bottom;
 
-  border: 2px dashed rgb(0, 255, 85);
   margin-top: 20px;
 }
 
@@ -90,6 +105,44 @@ main {
 /* FOOTER */
 
 .bg-grey {
-  height: 100px;
+  height: 80px;
   background-color: #222222;
+}
+
+footer div {
+  padding: 0 5px;
+}
+
+.debug {
+  width: 20%;
+  height: 100%;
+  border: 1px dashed purple;
+}
+
+.debug-center {
+  width: 37%;
+}
+
+footer {
+  color: white;
+}
+
+footer i {
+  font-size: 1.8rem;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+
+.chevron {
+  font-size: 0.5rem;
+}
+
+.text-footer {
+  font-size: 0.8rem;
 }
