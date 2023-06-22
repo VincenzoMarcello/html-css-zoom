@@ -12,6 +12,10 @@ body {
 
 /* UTILS */
 
+.flex {
+  display: flex;
+}
+
 /* HEADER */
 
 .bg-black-top {
@@ -40,7 +44,26 @@ body {
 
 /* MAIN */
 
+.container {
+  width: 1750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 main {
   height: calc(100vh - 40px);
   background-color: black;
+}
+
+.card {
+  width: 240px;
+  height: 160px;
+  border: 2px dashed rgb(0, 255, 85);
+  margin-top: 20px;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
