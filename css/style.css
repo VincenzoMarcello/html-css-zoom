@@ -109,14 +109,17 @@ main {
   background-color: #222222;
 }
 
+#green-square {
+  color: #4bc800;
+}
+
 footer div {
-  padding: 0 5px;
+  padding: 2px 5px;
 }
 
 .debug {
-  width: 20%;
+  width: 10%;
   height: 100%;
-  border: 1px dashed purple;
 }
 
 .debug-center {
@@ -145,4 +148,12 @@ footer i {
 
 .text-footer {
   font-size: 0.8rem;
+}
+
+.end-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  background-color: #4a4a4a;
 }
