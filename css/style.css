@@ -11,3 +11,27 @@ body {
 }
 
 /* UTILS */
+
+.bg-black {
+  height: 40px;
+  background-color: #000000;
+}
+
+.position-button {
+  min-height: 100%;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px 8px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #4a4a4a;
+  color: white;
+}
