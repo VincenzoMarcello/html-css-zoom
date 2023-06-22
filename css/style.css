@@ -12,7 +12,9 @@ body {
 
 /* UTILS */
 
-.bg-black {
+/* HEADER */
+
+.bg-black-top {
   height: 40px;
   background-color: #000000;
 }
@@ -34,4 +36,11 @@ body {
 
   background-color: #4a4a4a;
   color: white;
+}
+
+/* MAIN */
+
+main {
+  height: calc(100vh - 40px);
+  background-color: black;
 }
